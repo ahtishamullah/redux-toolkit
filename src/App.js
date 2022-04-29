@@ -12,7 +12,7 @@ function App() {
           <div className="container">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="movie/:imbdID" element={<MovieDetails />} />
+              <Route path="/movie/:imdbID" element={<MovieDetails />} />
               <Route path="*" element={<PageNotFound />} />
             </Routes>
           </div>
